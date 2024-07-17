@@ -25,14 +25,14 @@ Git: Version control system.
 ## Architecture
 The project follows a three-tier architecture:
 
-Application Layer: Contains the service interfaces and application of domain rules.
+*Application Layer*: Contains the service interfaces and application of domain rules.
   - **usecase**: Data transfer objects, contains the use case implementations such as `GetPokemonsRequest` and `GetPokemonsResponse`.
-  - **service**: Contains service interfaces and their implementations like `IPokemonService`, `IPokemonSOAPService`, `PokemonService`, and `PokemonSOAPService`.
-  - 
-Domain Layer: Includes all data models and business/domain rules.
+  - **service**: Contains service interfaces and their implementations like `IPokemonService` and `PokemonService`.
+   
+*Domain Layer*: Includes all data models and business/domain rules.
   - **model**: Contains the domain models such as `Pokemon` and `PokemonResponse`.
     
-Infrastructure Layer: Data access objects (DAOs), SOAP endpoints and external API integration in application.
+*Infrastructure Layer*: Data access objects (DAOs), SOAP endpoints and external API integration in application.
   - **dao**: Contains Data Access Objects (DAOs) such as `PokemonDAO` and `RestPokemonDAO`.
   - **endpoint**: Contains the SOAP endpoints, including `PokemonEndpoint`.
   - **config**: Contains configuration files like `WebServiceConfig` and `RestTemplateConfig`.
