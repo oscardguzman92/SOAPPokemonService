@@ -1,0 +1,11 @@
+com\PokemonApp\SOAPPokemonService\application\IPokemonSOAPService.class
+com\PokemonApp\SOAPPokemonService\config\WebServiceConfig.class
+com\PokemonApp\SOAPPokemonService\application\PokemonService.class
+com\PokemonApp\SOAPPokemonService\application\PokemonSOAPService.class
+com\PokemonApp\SOAPPokemonService\application\IPokemonService.class
+com\PokemonApp\SOAPPokemonService\Infrastructure\endpoint\PokemonEndpoint.class
+com\PokemonApp\SOAPPokemonService\SoapPokemonServiceApplication.class
+com\PokemonApp\SOAPPokemonService\domain\model\PokemonResponse.class
+com\PokemonApp\SOAPPokemonService\domain\model\GetPokemonsRequest.class
+com\PokemonApp\SOAPPokemonService\domain\model\GetPokemonsResponse.class
+com\PokemonApp\SOAPPokemonService\domain\model\Pokemon.class

@@ -1,0 +1,11 @@
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\application\IPokemonService.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\application\IPokemonSOAPService.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\application\PokemonService.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\application\PokemonSOAPService.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\config\WebServiceConfig.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\domain\model\GetPokemonsRequest.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\domain\model\GetPokemonsResponse.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\domain\model\Pokemon.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\domain\model\PokemonResponse.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\Infrastructure\endpoint\PokemonEndpoint.java
+C:\Users\ASUS\SOAPPokemonService\src\main\java\com\PokemonApp\SOAPPokemonService\SoapPokemonServiceApplication.java

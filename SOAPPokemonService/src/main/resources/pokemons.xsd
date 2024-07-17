@@ -1,0 +1,34 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.pokemonapp.com/pokemon" targetNamespace="http://www.pokemonapp.com/pokemon" elementFormDefault="qualified">
+    <xs:element name="getPokemonsRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="offset" type="xs:int"/>
+                <xs:element name="limit" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPokemonsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pokemonResponse" type="tns:pokemonResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="pokemonResponse">
+        <xs:sequence>
+            <xs:element name="count" type="xs:int"/>
+            <xs:element name="next" type="xs:string" minOccurs="0"/>
+            <xs:element name="previous" type="xs:string" minOccurs="0"/>
+            <xs:element name="results" type="tns:pokemon" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="pokemon">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="url" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
